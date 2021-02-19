@@ -9,9 +9,9 @@ setup(name='tap-twitter-ads',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_twitter_ads'],
       install_requires=[
-          'backoff==1.8.0',
-          'requests==2.23.0',
-          'singer-python==5.9.0',
+          'backoff>=1.8.0',
+          'requests>=2.21.0',
+          'singer-python>=5.9.0',
           'twitter-ads==7.0.0'
       ],
       extras_require={
